@@ -9,5 +9,5 @@ import reactor.core.publisher.Mono
 @RequestMapping("/bouquet")
 class BouquetController {
     @GetMapping("/hello")
-    fun hello() = Mono.just("Hello from the bouquet controller!")
+    fun hello() = Mono.just("Hello from the bouquet controller!\n")
 }

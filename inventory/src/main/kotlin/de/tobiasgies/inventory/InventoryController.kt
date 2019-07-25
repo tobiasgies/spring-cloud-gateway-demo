@@ -9,5 +9,5 @@ import reactor.core.publisher.Mono
 @RequestMapping("/inventory")
 class InventoryController {
     @GetMapping("/hello")
-    fun hello() = Mono.just("Hello from the inventory controller!")
+    fun hello() = Mono.just("Hello from the inventory controller!\n")
 }
