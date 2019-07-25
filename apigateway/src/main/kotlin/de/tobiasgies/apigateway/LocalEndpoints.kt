@@ -9,5 +9,5 @@ import reactor.core.publisher.Mono
 @RestController
 class LocalEndpoints {
     @GetMapping("/go_away")
-    fun goAway() = Mono.just("Go away, Apple has no place in this household!")
+    fun goAway() = Mono.just("Go away, you don't know how to use my API.\n")
 }
