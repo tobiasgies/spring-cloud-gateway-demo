@@ -69,7 +69,7 @@ presentation:
 * [SampleGlobalFilter](apigateway/src/main/kotlin/de/tobiasgies/apigateway/SampleGlobalFilter.kt):
   Contains an explanation for filters, which allow manipulating request and response data. Filters can be applied to
   individual routes or (as in this case) applied to all routes equally by implementing `GlobalFilter`.
-* [SampleWebServerCustomizer](apigateway/src/main/kotlin/de/tobiasgies/apigateway/SampleWebServerCustomizer.kt)
+* [SampleWebServerCustomizer](apigateway/src/main/kotlin/de/tobiasgies/apigateway/SampleWebServerCustomizer.kt):
   Skeleton for a class that would customize the underlying Netty web server.
 * [LocalEndpoints](apigateway/src/main/kotlin/de/tobiasgies/apigateway/LocalEndpoints.kt):
   Contains the API Gateway's local fallback endpoint. Spring Cloud Gateway, underneath it all, is a
